@@ -237,7 +237,7 @@ def raw_data(df):
         except ValueError:
             print("Sorry, I didn\'t understand you.")
             continue
-        if morerows == 'yes':
+        if morerows.lower == 'yes':
             number_of_rows = number_of_rows + 5
             continue
         else:
