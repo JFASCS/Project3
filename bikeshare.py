@@ -1,7 +1,12 @@
+#Imported Libraries
+
 import time
 import pandas as pd
 import numpy as np
 from datetime import timedelta
+
+####################################
+
 
 CITY_DATA = { 'chicago': r"C:\Users\FRIE354\OneDrive - Arvato Supply Chain Solutions\Desktop\Udacity\Python\Bikeshare_Data\DATA\chicago.csv",
               'new york city': r"C:\Users\FRIE354\OneDrive - Arvato Supply Chain Solutions\Desktop\Udacity\Python\Bikeshare_Data\DATA\new_york_city.csv",
