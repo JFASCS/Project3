@@ -7,10 +7,15 @@ from datetime import timedelta
 
 ####################################
 
+#Imported Data
 
 CITY_DATA = { 'chicago': r"C:\Users\FRIE354\OneDrive - Arvato Supply Chain Solutions\Desktop\Udacity\Python\Bikeshare_Data\DATA\chicago.csv",
               'new york city': r"C:\Users\FRIE354\OneDrive - Arvato Supply Chain Solutions\Desktop\Udacity\Python\Bikeshare_Data\DATA\new_york_city.csv",
               'washington': r"C:\Users\FRIE354\OneDrive - Arvato Supply Chain Solutions\Desktop\Udacity\Python\Bikeshare_Data\DATA\washington.csv" }
+
+####################################
+
+
 accepted_city_values = {'chicago','new york city', 'washington'}
 accepted_month_values = {'1','2','3','4','5','6','7','8','9','10','11','12','all'}
 accepted_day_values = {'1','2','3','4','5','6','7','all'}
