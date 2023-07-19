@@ -9,9 +9,9 @@ from datetime import timedelta
 
 #Imported Data
 
-CITY_DATA = { 'chicago': r"C:\Users\FRIE354\OneDrive - Arvato Supply Chain Solutions\Desktop\Udacity\Python\Bikeshare_Data\DATA\chicago.csv",
-              'new york city': r"C:\Users\FRIE354\OneDrive - Arvato Supply Chain Solutions\Desktop\Udacity\Python\Bikeshare_Data\DATA\new_york_city.csv",
-              'washington': r"C:\Users\FRIE354\OneDrive - Arvato Supply Chain Solutions\Desktop\Udacity\Python\Bikeshare_Data\DATA\washington.csv" }
+CITY_DATA = { 'chicago': 'chicago.csv',
+              'new york city': 'new_york_city.csv',
+              'washington': 'washington.csv' }
 
 ####################################
 
